@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-09-24T13:47:22.978Z",
+  "generator": "scripts/build-quran.mjs",
+  "source": {
+    "project": "Tanzil Project",
+    "url": "https://tanzil.net/",
+    "downloadUrl": "https://tanzil.net/download",
+    "licenseSummary": "نص القرآن الكريم من مشروع Tanzil، ويُسمح بنسخه وتوزيعه دون تعديل في النص نفسه، مع نسبة المصدر إلى Tanzil وعدم استخدام النسخة في أعمال مشتقة تحمل اسم Tanzil. راجع الشروط الكاملة على https://tanzil.net/"
+  },
+  "totalSurahs": 114,
+  "totalVerses": 6236,
+  "integrity": {},
+  "texts": {
+    "uthmani": {
+      "label": "الرسم العثماني (مصحف المدينة)",
+      "rawFile": "assets/quran/quran-uthmani.txt",
+      "rawSha256": "bf4f57b968d03f4131c070b1e285da9be0e0a108a21c910e872801ca273312c8",
+      "rawBytes": 1370878,
+      "jsonFile": "src/data/quran-uthmani.json",
+      "jsonSha256": "e3fc4e1cb391422a41421864fcd7888efcc0f908a5aa6a86c428ca41ab9a9af1",
+      "verses": 6236,
+      "surahs": 114,
+      "roundTripVerified": true,
+      "headerLines": 28
+    },
+    "simple": {
+      "label": "الرسم الإملائي المبسّط",
+      "rawFile": "assets/quran/quran-simple.txt",
+      "rawSha256": "f3268cfe7a400add8a8024fe23368d66f58cc8baa51773fe94e323625c66344b",
+      "rawBytes": 1338090,
+      "jsonFile": "src/data/quran-simple.json",
+      "jsonSha256": "91c2533a76954f0234b5081d72e773a3911eed9cbad31720f346e3abf98c49f7",
+      "verses": 6236,
+      "surahs": 114,
+      "roundTripVerified": true,
+      "headerLines": 28
+    }
+  },
+  "licenseHeader": [
+    "PLEASE DO NOT REMOVE OR CHANGE THIS COPYRIGHT BLOCK",
+    "",
+    "",
+    " Tanzil Quran Text (Uthmani, Version 1.1)",
+    " Copyright (C) 2007-2026 Tanzil Project",
+    " License: Creative Commons Attribution 3.0",
+    "",
+    " This copy of the Quran text is carefully produced, highly",
+    " verified and continuously monitored by a group of specialists",
+    " at Tanzil Project.",
+    "",
+    " TERMS OF USE:",
+    "",
+    " - Permission is granted to copy and distribute verbatim copies",
+    "   of this text, but CHANGING IT IS NOT ALLOWED.",
+    "",
+    " - This Quran text can be used in any website or application,",
+    "   provided that its source (Tanzil Project) is clearly indicated,",
+    "   and a link is made to tanzil.net to enable users to keep",
+    "   track of changes.",
+    "",
+    " - This copyright notice shall be included in all verbatim copies",
+    "   of the text, and shall be reproduced appropriately in all files",
+    "   derived from or containing substantial portion of this text.",
+    "",
+    " Please check updates at: http://tanzil.net/updates/",
+    "",
+    ""
+  ]
+}

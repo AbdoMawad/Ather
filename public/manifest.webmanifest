@@ -1,0 +1,24 @@
+{
+  "name": "أثر أمال — صدقة جارية",
+  "short_name": "أثر أمال",
+  "description": "صدقة جارية عن روح أمال محمود النهر: قراءة القرآن الكريم والأذكار والدعاء لها. بلا إعلانات وبلا تسجيل.",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FAF7F0",
+  "theme_color": "#123F2D",
+  "categories": ["books", "education"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "القرآن الكريم", "url": "./?tab=quran", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "الأذكار", "url": "./?tab=adhkar", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "الدعاء لها", "url": "./?tab=dua", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
